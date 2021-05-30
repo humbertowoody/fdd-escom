@@ -1,0 +1,78 @@
+$date
+  Sun May 30 01:23:35 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module incisoa_tb $end
+$var reg 4 ! bcd[3:0] $end
+$var reg 7 " display[6:0] $end
+$scope module inciso_a $end
+$var reg 4 # bcd[3:0] $end
+$var reg 7 $ display[6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+b1111110 "
+b0000 #
+b1111110 $
+#1000000
+b0001 !
+b0110000 "
+b0001 #
+b0110000 $
+#2000000
+b0010 !
+b1101101 "
+b0010 #
+b1101101 $
+#3000000
+b0011 !
+b1111001 "
+b0011 #
+b1111001 $
+#4000000
+b0100 !
+b0110011 "
+b0100 #
+b0110011 $
+#5000000
+b0101 !
+b1011011 "
+b0101 #
+b1011011 $
+#6000000
+b0110 !
+b1110000 "
+b0110 #
+b1110000 $
+#7000000
+b0111 !
+b0111 #
+#8000000
+b1000 !
+b1111111 "
+b1000 #
+b1111111 $
+#9000000
+b1001 !
+b1111011 "
+b1001 #
+b1111011 $
+#10000000
+b1010 !
+b0000000 "
+b1010 #
+b0000000 $
+#11000000

@@ -12,6 +12,7 @@ end entity incisoC;
 architecture AIncisoC of incisoC is
 begin
 process(bcd)
+begin
   case bcd is
     when "0000" =>
       display <= "1111110";

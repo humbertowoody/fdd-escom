@@ -12,6 +12,7 @@ end entity incisoD;
 architecture AIncisoD of incisoD is
 begin
 process(bcd)
+begin
   case bcd is
     when "0000" =>
       display <= "0110111";

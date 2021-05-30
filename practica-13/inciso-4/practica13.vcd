@@ -1,0 +1,46 @@
+$date
+  Sun May 30 02:29:48 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module practica13_tb $end
+$var reg 2 ! a01[1:0] $end
+$var reg 1 " e $end
+$var reg 1 # a2 $end
+$var reg 4 $ y1[3:0] $end
+$var reg 4 % y2[3:0] $end
+$scope module practica_13 $end
+$var reg 2 & a01[1:0] $end
+$var reg 1 ' e $end
+$var reg 1 ( a2 $end
+$var reg 4 ) y1[3:0] $end
+$var reg 4 * y2[3:0] $end
+$var reg 1 + e1 $end
+$var reg 1 , e2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00 !
+1"
+1#
+b0000 $
+b0001 %
+b00 &
+1'
+1(
+b0000 )
+b0001 *
+0+
+1,
+#1000000

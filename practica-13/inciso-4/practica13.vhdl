@@ -1,4 +1,4 @@
-library library IEEE;
+library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
@@ -6,13 +6,12 @@ entity practica13 is
   port (
     a01: in std_logic_vector(1 downto 0);
     e, a2: in std_logic;
-    e1, e2: out std_logic;
     y1, y2: out std_logic_vector(3 downto 0)
   );
 end entity practica13;
 
 architecture APractica13 of practica13 is
-  
+  signal e1, e2: std_logic;
 begin
   -- Lógica para determinar el valor de e1.
   e1 <= e and (not a2);
