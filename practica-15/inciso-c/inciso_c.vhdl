@@ -2,14 +2,14 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity incisoC is
+entity inciso_c is
   port (
     bcd: in std_logic_vector(3 downto 0);
     display: out std_logic_vector(6 downto 0)
   );
-end entity incisoC;
+end entity inciso_c;
 
-architecture AIncisoC of incisoC is
+architecture a_inciso_c of inciso_c is
 begin
 process(bcd)
 begin
@@ -50,4 +50,4 @@ begin
       display <= "0000000";
   end case;
 end process;
-end architecture AIncisoC;
+end architecture a_inciso_c;

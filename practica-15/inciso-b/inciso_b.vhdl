@@ -26,7 +26,7 @@ begin
     elsif (bcd = "0101") then
       display <= "0100100";
     elsif (bcd = "0110") then
-      display <= "0001111";
+      display <= "0100000";
     elsif (bcd = "0111") then
       display <= "0001111";
     elsif (bcd = "1000") then

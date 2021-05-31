@@ -2,21 +2,21 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity incisoA_tb is
-end incisoA_tb;
+entity inciso_a_tb is
+end inciso_a_tb;
 
-architecture prueba of incisoA_tb is
-  component incisoA
+architecture prueba of inciso_a_tb is
+  component inciso_a
     port (
       bcd: in std_logic_vector(3 downto 0);
       display: out std_logic_vector(6 downto 0)
     );
-  end component;
+  end component inciso_a;
 
   signal bcd: std_logic_vector(3 downto 0);
   signal display: std_logic_vector(6 downto 0);
 begin
-  inciso_a: incisoA port map(bcd => bcd, display => display);
+  incisoA: inciso_a port map(bcd => bcd, display => display);
   
   process begin
     bcd <= "0000";
@@ -45,7 +45,7 @@ begin
 
     bcd <= "0110";
     wait for 1 ns;
-    assert (display = "1110000") report "Error en 6";
+    assert (display = "1011111") report "Error en 6";
 
     bcd <= "0111";
     wait for 1 ns;

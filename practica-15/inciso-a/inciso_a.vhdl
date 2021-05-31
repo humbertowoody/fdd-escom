@@ -2,14 +2,14 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity incisoA is
+entity inciso_a is
   port (
     bcd: in std_logic_vector(3 downto 0);
     display: out std_logic_vector(6 downto 0)
   );
-end entity incisoA;
+end entity inciso_a;
 
-architecture AIncisoA of incisoA is
+architecture a_inciso_a of inciso_a is
 begin
 process(bcd)
 begin
@@ -27,7 +27,7 @@ begin
     when "0101" =>
       display <= "1011011";
     when "0110" =>
-      display <= "1110000";
+      display <= "1011111";
     when "0111" =>
       display <= "1110000";
     when "1000" =>
@@ -38,4 +38,4 @@ begin
       display <= "0000000";
   end case;
 end process;
-end architecture AIncisoA;
+end architecture a_inciso_a;

@@ -45,7 +45,7 @@ begin
 
     bcd <= "0110";
     wait for 1 ns;
-    assert (display = "0001111") report "Error en 6";
+    assert (display = "0100000") report "Error en 6";
 
     bcd <= "0111";
     wait for 1 ns;

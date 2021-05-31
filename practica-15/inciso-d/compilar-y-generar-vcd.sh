@@ -11,10 +11,10 @@
 # Realizado por: Humberto Alejandro Ortega Alcocer - 2021
 
 # Variables.
-ARCHIVO_ORIGEN=inciso_a.vhdl
-ARCHIVO_TESTBENCH=inciso_a_tb.vhdl
-COMPONENTE_TESTBENCH=inciso_a_tb
-ARCHIVO_VCD=inciso_a.vcd
+ARCHIVO_ORIGEN=inciso_d.vhdl
+ARCHIVO_TESTBENCH=inciso_d_tb.vhdl
+COMPONENTE_TESTBENCH=inciso_d_tb
+ARCHIVO_VCD=inciso_d.vcd
 
 # Compilación y ejecución.
 ghdl -a $ARCHIVO_ORIGEN && \
