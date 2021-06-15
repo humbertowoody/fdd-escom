@@ -1,0 +1,79 @@
+$date
+  Mon Jun 14 23:14:44 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module sumador_tb $end
+$var reg 2 ! a[1:0] $end
+$var reg 2 " b[1:0] $end
+$var reg 2 # s[1:0] $end
+$var reg 1 $ cin $end
+$var reg 1 % co $end
+$scope module sumadordosbits $end
+$var reg 2 & a[1:0] $end
+$var reg 2 ' b[1:0] $end
+$var reg 2 ( s[1:0] $end
+$var reg 1 ) cin $end
+$var reg 1 * co $end
+$var reg 3 + c[2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b01 !
+b10 "
+b11 #
+0$
+0%
+b01 &
+b10 '
+b11 (
+0)
+0*
+b000 +
+#1000000
+b00 !
+b01 "
+b01 #
+b00 &
+b01 '
+b01 (
+#2000000
+b01 !
+b11 "
+b01 #
+1$
+1%
+b01 &
+b11 '
+b01 (
+1)
+1*
+b111 +
+#3000000
+b11 !
+b10 #
+0$
+b11 &
+b10 (
+0)
+b110 +
+#4000000
+b10 !
+b10 #
+1$
+b10 &
+b10 (
+1)
+b111 +
+#5000000
