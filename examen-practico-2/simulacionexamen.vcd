@@ -1,0 +1,134 @@
+$date
+  Thu Jun  3 19:50:05 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module examen $end
+$var reg 2 ! e[1:0] $end
+$var reg 1 " sel $end
+$var reg 1 # z $end
+$var reg 1 $ y $end
+$var reg 7 % display[6:0] $end
+$var reg 4 & bd1[3:0] $end
+$var reg 4 ' bd2[3:0] $end
+$var reg 4 ( m[3:0] $end
+$scope module deco1 $end
+$var reg 2 ) a[1:0] $end
+$var reg 4 * b[3:0] $end
+$var reg 1 + enable $end
+$upscope $end
+$scope module deco2 $end
+$var reg 2 , a[1:0] $end
+$var reg 4 - b[3:0] $end
+$var reg 1 . enable $end
+$upscope $end
+$scope module mux1 $end
+$var reg 4 / dz[3:0] $end
+$var reg 4 0 dy[3:0] $end
+$var reg 4 1 m[3:0] $end
+$var reg 1 2 sel $end
+$upscope $end
+$scope module convertidor1 $end
+$var reg 4 3 salida_mux[3:0] $end
+$var reg 7 4 display[6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b11 !
+0"
+0#
+0$
+b1001111 %
+b0000 &
+b0000 '
+b0000 (
+b11 )
+b0000 *
+0+
+b11 ,
+b0000 -
+0.
+b0000 /
+b0000 0
+b0000 1
+02
+b0000 3
+b1001111 4
+#1000000
+b00 !
+1#
+1$
+b0110000 %
+b0001 &
+b0001 '
+b0001 (
+b00 )
+b0001 *
+1+
+b00 ,
+b0001 -
+1.
+b0001 /
+b0001 0
+b0001 1
+b0001 3
+b0110000 4
+#2000000
+b01 !
+1"
+b1101101 %
+b0010 &
+b0010 '
+b0010 (
+b01 )
+b0010 *
+b01 ,
+b0010 -
+b0010 /
+b0010 0
+b0010 1
+12
+b0010 3
+b1101101 4
+#3000000
+b10 !
+b0110011 %
+b0100 &
+b0100 '
+b0100 (
+b10 )
+b0100 *
+b10 ,
+b0100 -
+b0100 /
+b0100 0
+b0100 1
+b0100 3
+b0110011 4
+#4000000
+b11 !
+b1111111 %
+b1000 &
+b1000 '
+b1000 (
+b11 )
+b1000 *
+b11 ,
+b1000 -
+b1000 /
+b1000 0
+b1000 1
+b1000 3
+b1111111 4
+#5000000
